@@ -1,0 +1,155 @@
+body { 
+    width:100%;
+    font-family:'Lato', sans-serif;
+    color:#333;
+}
+
+lable {
+    display:block;
+    margin:10px;
+}
+
+header { 
+    background-color: aliceblue;
+    padding: 1px 0px;
+
+}
+
+a { 
+    text-decoration: none;
+}
+.nav > ul > li { 
+    display: inline-block;
+    margin-left:20px; 
+    font-size:14px;
+    width:auto; 
+    border-right: solid 1px black;
+    padding-right: 10px;
+}
+
+.nav > ul > li:hover { 
+   font-size:16px; 
+    cursor: pointer;
+}
+
+fieldset { 
+    margin-top: 20px;
+
+}
+
+.error{ 
+    padding: 3px;
+    color:red;
+    background:#ffc1c3;
+    border: solid 1px red;
+    border-radius: 3px;
+    width: 80%;
+    margin:0px 3px;
+    font-size:10px
+}
+
+.correct{
+    margin-top: 5px; 
+    padding: 3px;
+    color:green;
+    background:#c1ffc4;
+    border: solid 1px green;
+    border-radius: 3px;
+    width: 80%;
+    margin:0px 3px;
+    font-size:10px
+}
+
+.form { 
+        float: left;
+        background-color:whitesmoke; 
+        width: 65%; 
+        padding: 0px 20px;
+        margin:10px;
+    }
+
+.sidebar { 
+        float: right;
+        background-color: whitesmoke; 
+        width: 20%;
+        padding: 0px 20px;
+        margin:10px;
+
+}
+
+
+
+.footer { 
+        background-color: skyblue; 
+        height: 50px; 
+        width: 96%; 
+        clear:both;
+        padding: 1% 2%; 
+        align-content: center;
+}
+
+.footer > p { 
+        position: relative;
+        left: 35%;
+        display: inline-block;3
+        color:aquamarine;
+}
+
+.button { 
+    float:right;
+    margin: 10px 4px;
+    border-radius: 5px; 
+    padding:8px;
+    font-size:12px; 
+    font-weight: 600;
+}
+
+.button:hover {
+    color: white;
+    background: green;
+    cursor: pointer;
+    animation: spin 4s linear infinite reverse;
+}
+
+#uzytkownik { 
+    width:500px;
+    position: relative;
+    left: 20%;
+}
+
+/*Bardzo duże ekrany ( 1200px i wyżej)*/
+@media only screen and (max-width: 1200px) { }
+
+/*Duże ekrany (992px i wyżej)*/
+@media only screen and (max-width: 992px) { }
+
+/*Średnie ekrany (tablety, 768px i wyżej)*/
+@media only screen and (max-width: 800px) { 
+    .form { 
+            width: 99%; 
+            padding: 5px 5px;
+            margin:5px 0px;
+        }
+
+    .sidebar { 
+            width: 97%;
+            padding: 9px 9px;
+            margin:5px 0px;    
+    }
+    
+    .footer { 
+            width: 100%;
+            padding: 0px 0px;
+    }
+/*Małe wyświetlacze (telefony, 576px i wyżej)*/
+@media only screen and (max-width: 576px) { 
+    
+      .footer > p { 
+           
+            left: 25%;
+    }  
+}
+
+
+
+
